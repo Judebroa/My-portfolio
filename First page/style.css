@@ -1,0 +1,248 @@
+/*----Google fonts-----*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;600&family=Inspiration&family=Roboto+Condensed&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+}
+
+:root {
+    --primary-color: #DAEEEF;
+    --secondary-color: #525252;
+    --fifth-color: #1b2525;
+}
+
+.dark-mode {
+    --primary-color: #0e3a33d0;
+    --secondary-color: #1b2525;
+    --third-color: white;
+}
+/*----Main--Background----*/
+
+.background {
+    width: 65rem;
+    height: 61rem;
+    background: var(--primary-color);
+    box-shadow: 0 0 1rem #979797;
+    position: relative;
+}
+
+/*----Header--Tag-----*/
+
+.header_tag {
+    width: 65rem;
+    height: 5rem;
+    display: flex;
+    background: var(--secondary-color);
+    position: relative;
+}
+
+/*----Header--tag--h1---*/
+
+.header_tag H1 {
+    color: #DAEEEF;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    position: relative;
+    left: 2rem;
+    top: 16px;
+}
+
+/*----Header--tag--Logo---*/
+
+.header_tag ul{
+    display: flex;
+    position: relative;
+    top: 8px;
+}
+
+.header_tag li{
+    font-size: 25px;
+    color: #DAEEEF;
+    position: relative;
+    left: 1rem;
+    display: flex;
+    padding: 16px;
+}
+
+/*----Header--Tag--button---dark--theme---*/
+
+.header_button a{
+    cursor: pointer;
+    color: #DAEEEF;
+    font-size:30px;
+    position: relative;
+    left: 36rem;
+    top: 1rem;
+}
+
+.header_button a:hover{
+    color: #414141;
+    transition: 0.9s;
+    opacity: 90%;
+}
+
+/*---Profile-image--1---*/
+
+.profile {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100px;
+    background: url(images/dp.jpg),no-repeat;
+    position: relative;
+    top: 6rem;
+    left: 3rem;
+    box-shadow: 0 8px 8px #0e0e0e;
+}
+
+/*---Profile-image-text-1--*/
+
+.profile h2 {
+    color: var(--third-color);
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    position: relative;
+    left: 12rem;
+    top: 2rem;
+}
+
+.profile p {
+    color: var(--third-color);
+    font-size: 14px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    position: relative;
+    left: 12rem;
+    top: 2rem;
+}
+
+/*---Horizontal--nav---*/
+
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    position: relative;
+    bottom: 8rem;
+    display: flex;
+    list-style: none;
+}
+
+.menu li a {
+    color: var(--third-color);
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    transition: 0.5s;
+    opacity: 20%;
+}
+/*---Button--book-a-meeting---*/
+.booked {
+    position: relative;
+    display: flex;
+}
+
+.booked p {
+    color: var(--third-color);
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    position: relative;
+    left: 49rem;
+
+}
+
+.booked ul {
+    position: relative;
+    bottom: 3rem;
+    left: 35rem;
+    display: flex;
+    list-style: none;
+}
+
+.booked li a {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    text-decoration: none;
+    outline: none;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: var(--secondary-color);
+    color: #DAEEEF;
+    word-spacing: 3px;
+    cursor: pointer;
+}
+
+.booked li a:hover {
+    transition: 0.5s;
+    opacity: 85%;
+}
+
+/*--accounts--*/
+
+.accounts{
+    position: relative;
+    display: flex;
+    color: #525252;
+}
+
+.accounts ul{
+    list-style: none;
+    position: relative;
+    bottom: 14rem;
+    left: 46rem;
+    display: flex;
+}
+
+.accounts li a{
+    font-size: 27px;
+    position: relative;
+    display: flex;
+    padding: 14px;
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.accounts li a:hover{
+    transition: 0.5s;
+    opacity: 20%;
+}
+
+/*----Container---1--*/
+
+.container1 {
+        width: 65rem;
+        height: 30rem;
+        background: var(--secondary-color);
+        position: relative;
+        bottom: 1rem;
+        outline: none;
+}
+
+/*----recemt-project--1--h1--p----*/
+
+.recent_project p {
+    font-size: 19px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #ffffff;
+    position: relative;
+    left: 1rem;
+    bottom: 20px;
+}
+
+.recent_project h1 {
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    position: relative;
+    left: 5rem;
+    top: 1rem;
+}
+
